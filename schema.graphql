@@ -7,4 +7,8 @@ type Query {
 List down all fields returned from the provided APIs
 """
 type ETH_RESULT {
+  status: Int!
+  message: String!
+  result: String!
 }
+
